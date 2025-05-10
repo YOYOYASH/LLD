@@ -9,10 +9,10 @@ class Genre:
 
 
 class Movie:
-    def __init__(self,id:str,title:str,description:str,genre:Genre,duration_in_minutes:int):
+    def __init__(self,id:str,title:str,language:str,genre:Genre,duration_in_minutes:int):
         self.id = id
         self.title = title
-        self.description  =description
+        self.language  = language
         self.genre = genre
         self.duration_in_minutes   = duration_in_minutes
 

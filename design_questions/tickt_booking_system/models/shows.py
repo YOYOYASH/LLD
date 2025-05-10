@@ -1,6 +1,7 @@
 from datetime import datetime
+from models.movies import Movie
+from models.screens import Screen
 
-from design_questions.bookmyshow import Movie, Screen
 
 
 class Show:
